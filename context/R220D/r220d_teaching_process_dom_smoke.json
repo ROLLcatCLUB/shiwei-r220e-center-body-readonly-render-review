@@ -1,0 +1,15 @@
+{
+  "stage": "teaching_process_dom_smoke",
+  "teaching_process_section_exists": true,
+  "readable_process_exists": true,
+  "readable_process_slot": "teaching-process-episodes",
+  "episode_card_count": 2,
+  "all_episode_cards_inside_teaching_process": true,
+  "single_template_process_marker": true,
+  "unified_renderer_window_flag": true,
+  "source_gap_as_teaching_body": 0,
+  "provisional_without_teacher_review_label": 0,
+  "teaching_process_dom_pass": true,
+  "field_rendering": false,
+  "formal_apply": false
+}
