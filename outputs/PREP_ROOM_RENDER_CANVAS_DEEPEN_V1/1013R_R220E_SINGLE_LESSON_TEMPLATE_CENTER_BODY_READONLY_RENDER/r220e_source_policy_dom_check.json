@@ -1,0 +1,41 @@
+{
+  "stage": "1013R_R220E_SINGLE_LESSON_TEMPLATE_CENTER_BODY_READONLY_RENDER",
+  "top_candidate_status_label": "系统候选，需教师确认",
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "candidate_status_count": 1,
+      "repeated_full_source_label_count": 0,
+      "forbidden_term_hits": [],
+      "source_gap_as_teacher_content": false
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "candidate_status_count": 1,
+      "repeated_full_source_label_count": 0,
+      "forbidden_term_hits": [],
+      "source_gap_as_teacher_content": false
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "candidate_status_count": 1,
+      "repeated_full_source_label_count": 0,
+      "forbidden_term_hits": [],
+      "source_gap_as_teacher_content": false
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "candidate_status_count": 1,
+      "repeated_full_source_label_count": 0,
+      "forbidden_term_hits": [],
+      "source_gap_as_teacher_content": false
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "candidate_status_count": 1,
+      "repeated_full_source_label_count": 0,
+      "forbidden_term_hits": [],
+      "source_gap_as_teacher_content": false
+    }
+  ]
+}
