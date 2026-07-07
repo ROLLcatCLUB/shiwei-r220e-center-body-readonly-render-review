@@ -1,0 +1,113 @@
+{
+  "stage": "1013R_R220D_R97B_RENDER_SLOT_DOM_SMOKE",
+  "status": "PASS",
+  "target_file": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html",
+  "checks": {
+    "required_files": {
+      "README_FOR_GPT_REVIEW.md": true,
+      "PACKAGE_MANIFEST.json": true,
+      "r220d_scope_note_right_rail_aux_surface.md": true,
+      "r220d_dom_smoke_environment.md": true,
+      "r220d_static_resolver_smoke.json": true,
+      "r220d_dynamic_child_slot_smoke.json": true,
+      "r220d_uploaded_payload_rebind_smoke.json": true,
+      "r220d_teaching_process_dom_smoke.json": true,
+      "r220d_right_rail_bottom_xiaojiao_boundary_smoke.json": true,
+      "r220d_wrong_shell_guard_smoke.json": true,
+      "r220d_wrong_shell_guard_report.md": true,
+      "r220d_dom_smoke_summary.json": true,
+      "r220d_dom_smoke_summary.md": true,
+      "runner/run_1013R_R220D_r97b_render_slot_dom_smoke.js": true,
+      "validator/validate_1013R_R220D_r97b_render_slot_dom_smoke.py": true
+    },
+    "json_parse": {
+      "PACKAGE_MANIFEST.json": true,
+      "r220d_static_resolver_smoke.json": true,
+      "r220d_dynamic_child_slot_smoke.json": true,
+      "r220d_uploaded_payload_rebind_smoke.json": true,
+      "r220d_teaching_process_dom_smoke.json": true,
+      "r220d_right_rail_bottom_xiaojiao_boundary_smoke.json": true,
+      "r220d_wrong_shell_guard_smoke.json": true,
+      "r220d_dom_smoke_summary.json": true
+    },
+    "parent_slot_checks": {
+      "lesson-body": true,
+      "teaching-process": true,
+      "right-rail": true,
+      "bottom-xiaojiao": true
+    },
+    "child_slot_checks": {
+      "basis": true,
+      "analysis": true,
+      "goals": true,
+      "keypoints": true,
+      "preparation": true,
+      "assessment": true,
+      "teaching-process": true,
+      "teaching-process-episodes": true
+    },
+    "right_rail_isolation_checks": {
+      "right_rail_slot_exists": true,
+      "right_rail_content_semantics_out_of_scope": true,
+      "legacy_big_screen_content_not_promoted": true,
+      "right_rail_not_teacher_main_source": true,
+      "right_rail_does_not_write_main_body": true,
+      "dirty_legacy_right_rail_hidden_or_ignored": true,
+      "right_rail_slot_isolation_pass": true,
+      "big_screen_content_model_out_of_scope": true
+    },
+    "pass_conditions": {
+      "required_files": true,
+      "json_parse": true,
+      "target_exists": true,
+      "resolver_parent_slots_pass": true,
+      "dynamic_child_slots_pass": true,
+      "uploaded_payload_rebind_pass": true,
+      "no_backend_network_call": true,
+      "teaching_process_dom_pass": true,
+      "source_gap_as_teaching_body_zero": true,
+      "provisional_without_teacher_review_label_zero": true,
+      "right_rail_slot_isolation_pass": true,
+      "bottom_xiaojiao_slot_isolation_pass": true,
+      "wrong_shell_guard_pass": true,
+      "summary_pass": true,
+      "field_rendering_false": true,
+      "formal_apply_false": true,
+      "no_write_true": true,
+      "no_R95_true": true,
+      "no_model_provider_call_true": true,
+      "manifest_boundary": true
+    }
+  },
+  "right_rail_scope": {
+    "classification": "reserved auxiliary surface",
+    "content_semantics_out_of_scope": true,
+    "big_screen_content_model_out_of_scope": true,
+    "future_line": "R230_BIG_SCREEN_AND_RIGHT_RAIL_AUX_SURFACE"
+  },
+  "boundary": {
+    "dom_smoke_only": true,
+    "real_field_rendering": false,
+    "new_html_shell": false,
+    "R21_modified": false,
+    "R36_modified": false,
+    "R36_M1_R100_P1_promoted": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "pptx_pdf_docx_generated": false,
+    "R95_executed": false,
+    "provider_model_called": false,
+    "xiaojiao_real_modification": false,
+    "field_level_editing": false,
+    "R201F_R201H_main_chain_replaced": false,
+    "right_rail_content_model_defined": false,
+    "big_screen_content_model_defined": false
+  },
+  "next_recommended_stages": [
+    "R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+    "1013R_R220E_SINGLE_LESSON_TEMPLATE_CENTER_BODY_READONLY_BINDING",
+    "R230A_RIGHT_RAIL_DIRTY_CONTENT_AUDIT_AND_QUARANTINE"
+  ]
+}
