@@ -1,0 +1,35 @@
+{
+  "stage": "1013R_R220E_SINGLE_LESSON_TEMPLATE_CENTER_BODY_READONLY_RENDER",
+  "old_static_markers": [
+    "色彩的渐变",
+    "渐变的节奏",
+    "多彩的生活"
+  ],
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "old_static_marker_hits": [],
+      "old_static_body_replaced": true
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "old_static_marker_hits": [],
+      "old_static_body_replaced": true
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "old_static_marker_hits": [],
+      "old_static_body_replaced": true
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "old_static_marker_hits": [],
+      "old_static_body_replaced": true
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "old_static_marker_hits": [],
+      "old_static_body_replaced": true
+    }
+  ]
+}
